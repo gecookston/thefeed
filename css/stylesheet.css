@@ -1,0 +1,129 @@
+
+/* Gif colors
+    light blue-#A2C5F2
+    darker blue-#61808C
+    light green-#C5D9D3
+    pink- #F0B5B6
+    black-#0D0D0D */
+
+body {
+    background-color: #F0B5B6 ;
+    max-width: 1200px;
+    margin: auto;
+    font-family: 'Crimson Text', serif;
+ }
+
+header {
+    width: 300px;
+    position: fixed;
+    top: 10px;
+    left: 25px;
+    text-align: center;
+}
+
+nav {
+    background-color:
+    #C5D9D3;
+    width: 300px;
+    position: fixed;
+    top: 270px;
+    left: 25px;
+    text-align: center;
+    border: 1px black solid;
+}
+
+nav:hover {
+    background-color: #61808C;
+}
+
+main {
+    width: 50%;
+    margin-left: 450px;
+    text-align: center;
+    display: block;
+}
+
+#feedgif {
+    width: 200px;
+}
+
+#feedgif:hover {
+    opacity: 0.5 ;
+}
+
+section {
+    border: 2px black solid;
+    margin-top: 25px ;
+    padding: 25px;
+    width: 100%
+    text-align: center;
+    background-color:#F0B5B6;
+    border-radius: 30px;
+    
+}
+
+    section img {
+        border: 1px black solid;
+        border-radius: 30px;
+    }
+
+    section:hover {
+        border: 3px solid black;
+        border-radius: 0px;
+        background-color: #C5D9D3;
+    }
+
+footer {
+    background-color: #C5D9D3;
+    width: 300px;
+    position: fixed;
+    bottom: 10%;
+    left: 25px;
+    text-align: center;
+    border: 1px black solid;
+}
+
+footer:hover {
+        background-color: #61808C;
+}
+
+#button {
+    width: 30%;
+    margin-left: 50%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    text-align: center;
+    display: block;
+    border: 1px black solid;
+    background-color:#C5D9D3;
+}
+
+a:visited {
+    color: black;
+}
+
+  #button:hover {
+    background-color:#61808C;
+  }
+
+/* below are specifications for the homepage*/
+#homenav {
+    top:125px;
+    left:450px;
+    background-color:#F0B5B6;
+    border: none;
+}
+
+#homeheader {
+    display: block;
+    text-align: center;
+    top: 35%;
+    left: 40%;
+    width: auto;
+}
+
+    #homegif:hover {
+        opacity: 0.5 ;
+    }
+
+/* above are specifications for the the feed*/
