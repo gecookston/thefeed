@@ -21,19 +21,33 @@ header {
     text-align: center;
 }
 
+#welcome {
+    background-color:
+    #C5D9D3;
+    width: 350px;
+    margin-left: 50%;
+    margin-top:25px;
+    text-align: center;
+    border: 1px black solid;
+}
+
 nav {
     background-color:
     #C5D9D3;
     width: 300px;
     position: fixed;
-    top: 270px;
-    left: 25px;
+    top: 150px;
+    left: 5%;
     text-align: center;
     border: 1px black solid;
 }
 
-nav:hover {
-    background-color: #61808C;
+a {
+    text-decoration: none;
+}
+
+nav h5:hover {
+    background-color:#61808C;
 }
 
 main {
@@ -44,7 +58,9 @@ main {
 }
 
 #feedgif {
-    width: 200px;
+   margin-left: 5%; 
+    width: 125px;
+
 }
 
 #feedgif:hover {
@@ -53,10 +69,10 @@ main {
 
 section {
     border: 2px black solid;
-    margin-top: 25px ;
+    margin-top: 37px;
     padding: 25px;
     width: 100%
-    text-align: center;
+    text-align:center;
     background-color:#F0B5B6;
     border-radius: 30px;
     
@@ -71,20 +87,22 @@ section {
         border: 3px solid black;
         border-radius: 0px;
         background-color: #C5D9D3;
-    }
+     }
 
 footer {
     background-color: #C5D9D3;
     width: 300px;
     position: fixed;
-    bottom: 10%;
-    left: 25px;
+    bottom: 1%;
+    margin-top: 10%;
+    margin-left: 5%;
     text-align: center;
     border: 1px black solid;
 }
 
-footer:hover {
-        background-color: #61808C;
+h6 {
+    font-size: 10px;
+    text-decoration: underline;
 }
 
 #button {
@@ -106,10 +124,20 @@ a:visited {
     background-color:#61808C;
   }
 
+#friends {
+    text-decoration: underline;
+}
+
+h5 {
+    margin-left: 3%;
+    margin-bottom: 1%;
+}
+
+
+
 /* below are specifications for the homepage*/
 #homenav {
-    top:125px;
-    left:450px;
+    text-align: center;
     background-color:#F0B5B6;
     border: none;
 }
@@ -122,8 +150,13 @@ a:visited {
     width: auto;
 }
 
-    #homegif:hover {
-        opacity: 0.5 ;
-    }
+#homegif {
+    width: 350px;
+    height: 350px;
+}
+
+ #homegif:hover {
+    opacity: 0.5 ;
+}
 
 /* above are specifications for the the feed*/
