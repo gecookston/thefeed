@@ -60,7 +60,6 @@ main {
 #feedgif {
    margin-left: 5%; 
 width: 125px;
-
 }
 
 #feedgif:hover {
@@ -74,8 +73,7 @@ section {
     width: 100%
     text-align:center;
     background-color:#F0B5B6;
-    border-radius: 30px;
-    
+    border-radius: 30px; 
 }
 
     section img {
@@ -123,10 +121,6 @@ a:visited {
   #button:hover {
     background-color:#61808C;
   }
-
-#friends {
-    text-decoration: underline;
-}
 
 h5 {
     margin-left: 3%;
