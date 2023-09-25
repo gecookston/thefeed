@@ -35,6 +35,8 @@ nav {
     background-color:
     #C5D9D3;
     width: 300px;
+    height: 500px;
+    overflow: scroll;
     position: fixed;
     top: 150px;
     left: 5%;
@@ -44,6 +46,7 @@ nav {
 
 a {
     text-decoration: none;
+    color: black;
 }
 
 nav h5:hover {
@@ -117,6 +120,10 @@ h6 {
 a:visited {
     color: black;
 }
+
+a: link {
+    color: black;
+} 
 
   #button:hover {
     background-color:#61808C;
