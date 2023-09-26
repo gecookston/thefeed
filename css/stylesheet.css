@@ -85,10 +85,21 @@ section {
         border: 1px black solid;
         border-radius: 30px;
     }
+    
+    section video {
+        border-radius: 30px;
+    }
+    
+    section video:hover {
+        border-radius: 0px;
+    }
+    
+    section img:hover {
+        border-radius: 0px;
+    }
 
     section:hover {
         border: 3px solid black;
-        border-radius: 0px;
         background-color: #C5D9D3;
      }
 
@@ -130,12 +141,9 @@ a:visited {
     color: black;
 }
 
-a: link {
+a:link {
     color: black;
 } 
-
-
-
 
 /* below are specifications for the homepage*/
 #homenav {
