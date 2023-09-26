@@ -93,7 +93,9 @@ section {
 footer {
     background-color: #C5D9D3;
     width: 300px;
+    height: auto;
     position: fixed;
+    padding: none;
     bottom: 1%;
     margin-top: 10%;
     margin-left: 5%;
