@@ -21,6 +21,15 @@ header {
     text-align: center;
 }
 
+#feedgif {
+    margin-left: 5%; 
+    width: 125px;
+    }
+    
+ #feedgif:hover {
+ opacity: 0.5 ;
+}
+
 #welcome {
     background-color:
     #C5D9D3;
@@ -44,29 +53,22 @@ nav {
     border: 1px black solid;
 }
 
-a {
-    text-decoration: none;
-    color: black;
-}
+    a {
+        text-decoration: none;
+        color: black;
+    }
 
-nav h5:hover {
-    background-color:#61808C;
-}
+    nav h5:hover {
+        margin-left: 3%;
+        margin-bottom: 1%;
+        background-color:#61808C;
+    }      
 
 main {
     width: 50%;
     margin-left: 450px;
     text-align: center;
     display: block;
-}
-
-#feedgif {
-   margin-left: 5%; 
-width: 125px;
-}
-
-#feedgif:hover {
-    opacity: 0.5 ;
 }
 
 section {
@@ -79,7 +81,7 @@ section {
     border-radius:30px; 
 }
 
-    section img {
+     section img {
         border: 1px black solid;
         border-radius: 30px;
     }
@@ -103,12 +105,9 @@ footer {
     border: 1px black solid;
 }
 
-h6 {
+#button {
     font-size: 10px;
     text-decoration: underline;
-}
-
-#button {
     width: 30%;
     margin-left: 50%;
     margin-top: 5%;
@@ -118,6 +117,14 @@ h6 {
     border: 1px black solid;
     background-color:#C5D9D3;
 }
+    h6 {
+        font-size: 10px;
+        text-decoration: underline;
+    }
+
+    #button:hover {
+        background-color:#61808C;
+      }
 
 a:visited {
     color: black;
@@ -127,14 +134,7 @@ a: link {
     color: black;
 } 
 
-  #button:hover {
-    background-color:#61808C;
-  }
 
-h5 {
-    margin-left: 3%;
-    margin-bottom: 1%;
-}
 
 
 /* below are specifications for the homepage*/
